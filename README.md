@@ -5,9 +5,13 @@ A routing protocol specifies how routers communicate with each other, distributi
 The specific characteristics of routing protocols include the manner in which they avoid routing loops, the manner in which they select preferred routes, using information about hop costs, the time they require to reach routing convergence, their scalability, and other factors.
 
 Although there are many types of routing protocols, three major classes are in widespread use on IP networks:
+
 •	Interior gateway protocols type 1, link-state routing protocols, such as OSPF and  
+
 •	Interior gateway protocols type 2, distance-vector routing protocols, such as Routing Information Protocol(RIP), IGRP.
+
 •	Exterior gateway protocols are routing proto/;p0cols used on the Internet for exchanging routing information between Autonomous Systems, such as Border Gateway Protocol (BGP), Path First Vector Routing Protocol. Exterior gateway protocols should not be confused with Exterior Gateway Protocol (EGP), an obsolete routing protocol.
+
 Further in the project we will study OSPF and EIGRP protocols and apply the  methodologies of EIGRP protocol to enhance or improve the shortcomings of the OSPF protocol. Our main aim is to make the OSPF protocol more efficient as EIGRP is a CISCO  proprietary and only available for cisco devices, so applying its properties to OSPF, all the devices can benefit globally.            	
 
 This project aims at resolving the shortcomings of the Open Shortest Path First protocol using the methodologies of Enhanced Interior Gateway Routing Protocol(EIGRP). As EIGRP is a CISCO proprietary, only CISCO products can benefit from them, hence this project aims at providing the benefits of EIGRP protocol, globally to all routers working on Open Shortest Path First.
